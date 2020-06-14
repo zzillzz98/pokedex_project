@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {Router} from 'react-router-dom';
-import {createBroswerHistory} from 'history';
+import {createBrowserHistory} from 'history';
 
-const history = createBroswerHistory();
+const history = createBrowserHistory();
 
 ReactDOM.render(
   <React.StrictMode>
